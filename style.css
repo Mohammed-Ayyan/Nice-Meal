@@ -353,7 +353,9 @@ iframe{
 .same1 > * {
     margin: 15px;
     }
-
+.First-Store{
+    margin-block: 15px;
+}
 
 @media screen and (width<500px) {
     .First_Section,.Third_Section {
@@ -370,13 +372,22 @@ iframe{
         width: 80vw;
     }
     .Width-50vw{
-        width: 80vw;
+        width: 95vw;
     }
 
     .First_Section>img {
         height: 90vh;
     }
+.First-Store{
+    width: 250px;
 
+}
+.First-Store>img{
+    object-fit: contain;
+}
+.absolute{
+    top: 42%;
+}
     .same>* {
         margin: 20px;
     }
@@ -396,11 +407,14 @@ iframe{
     height: 120vh;
 }
 .Third_Section-Second-Div-img>img{
-    width: 45vh !important;
+    /* width: 45vh !important; */
+    height: auto;
     object-fit: contain;
 }
 .stores{
     flex-direction: column;
+    margin: auto;
+    width: 300px;
 
 }
 .Sixth-Section{
