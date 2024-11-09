@@ -369,10 +369,11 @@ iframe{
         font-size: 35px;
     }
     .Width-40vw {
-        width: 80vw;
+        width: 95vw;
     }
     .Width-50vw{
         width: 95vw;
+        text-align: left;
     }
 
     .First_Section>img {
